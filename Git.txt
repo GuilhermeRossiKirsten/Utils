@@ -30,3 +30,13 @@ git branch
 git checkout master 
 git merge testing
 
+
+git fetch
+
+//na branch que deseja
+git rebase main
+
+git stash 
+git stash apply
+
+
