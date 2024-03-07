@@ -294,3 +294,33 @@ _____________ SERVEO.NET _______________
 https://serveo.net/
 
 ssh -R myAlias:80:<ip>localhost:<port>3000 serveo.net
+
+
+
+_________________SQL_____________________
+
+Isso é o que você precisa aprender de SQL
+
+-SELECT
+-DISTINCT
+-FROM
+-JOIN
+-WHERE
+-HAVING
+-LIKE
+-GROUP BY
+-ORDER BY
+-COUNT
+-MAX/MIN/AVG
+-SUM
+-CASE WHEN
+-PARTITION BY (WINDOW Function)
+-WITH (CTE)
+-UNION e UNION ALL(Não remove duplicidades)
+
+A lógica  sempre segue a ordem:
+SELECT 
+FROM 
+WHERE 
+GROUP BY
+ORDER BY 

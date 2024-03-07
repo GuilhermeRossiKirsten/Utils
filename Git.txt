@@ -40,4 +40,5 @@ git rebase main
 git stash 
 git stash apply
 
+git cherry-pick <hash>
 
