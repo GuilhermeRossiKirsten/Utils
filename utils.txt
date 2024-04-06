@@ -24,6 +24,12 @@ $ makepkg -si
 	sudo apt upgrade
 	sudo apt-get install wget ca-cetificates
 	code .
+	
+	
+	fez cagada?
+	talvez isso resolva 
+	
+	Get-AppxPackage MicrosoftCorporationII.WindowsSubsystemforLinux -AllUsers   | Remove-AppxPackage
 
 #### Consertando timer dual boot:
 	timedatectl set-local-rtc 1 --adjust-system-clock
