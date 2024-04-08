@@ -294,6 +294,25 @@ docker-compose up (monta os conteiners)
 docker-compose ps
 docker-compose down
 
+atualização dia 07/04/2024
+
+"docker-compose" está sendo descontinuado usar "docker compose"
+subcomando do docker
+
+docker compose up -d --force-recreate
+
+indica o local do arquivo compose caso n esteja na raiz
+docker compose -f infra/compose.yaml up
+
+services:
+  database:
+    image: "postgres:16.0-alpine3.18"
+    environment:
+      POSTGRES_PASSWORD: "local_password"
+    ports:
+      - "5432:5432"
+
+
 
 _____________ SERVEO.NET _______________
 
