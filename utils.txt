@@ -341,7 +341,8 @@ Isso é o que você precisa aprender de SQL
 -CASE WHEN
 -PARTITION BY (WINDOW Function)
 -WITH (CTE)
--UNION e UNION ALL(Não remove duplicidades)
+-UNION
+-UNION ALL(Não remove duplicidades)
 
 A lógica  sempre segue a ordem:
 SELECT 
